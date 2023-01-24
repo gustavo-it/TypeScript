@@ -1,4 +1,4 @@
-# Curso TypeScript do básico ao avançad
+# Curso TypeScript do básico ao avançado
 ### Tópicos abordados:
 - TypeScript - Instalação
 - TypeScript - Tipos básico
