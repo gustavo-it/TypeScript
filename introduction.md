@@ -33,3 +33,22 @@ const nome = 'Maria'
 export default nome;
 
 ```
+---
+# Instalando o ts-node e Code Runner
+Para auxiliar em nosso desenvolvimento e compilarmos o código do TypeScript, vamos instalar uma biblioteca chamada `ts-node`
+
+Vamos criar uma pasta chamada `.vscode` dentro do nosso projeto inicial. E dentro dela vamos criar um arquivo chamado `settings.json` esse arquivo vai guardar algumas configurações que queremos que sejam aplicadas nesse projeto que vamos iniciar.
+
+No arquivo `settings.json` vamos abrir as chaves e procurar pela chave `code-runner.executorMap` Ela vai trazer todas as configurações do code runner.
+
+Vamos excluir as chaves de outras linguagens e deixar somente de TypeScript
+
+settings.json:
+```json
+{
+    "code-runner.executorMap": {
+        "typescript": "npx ts-node --files",
+    }
+}
+```
+---
