@@ -1,1 +1,2 @@
-console.log('Webpack');
+import funcao from './mod'
+funcao();
